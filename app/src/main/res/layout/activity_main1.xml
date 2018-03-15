@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/christmastrees3" />
+
+    <TextView
+        android:id="@+id/marry"
+        android:text="@string/marry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/medium"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/big_text" />
+
+    <TextView
+        android:text="@string/and_happy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/marry"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:textColor="@color/text_color"
+        android:textStyle="italic"
+        android:textSize="@dimen/medium_text" />
+
+    <TextView
+        android:id="@+id/be"
+        android:text="@string/be_good"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/large"
+        android:fontFamily="serif"
+        android:textColor="@color/text_color"
+        android:textStyle="italic"
+        android:textSize="@dimen/small_text" />
+
+    <TextView
+        android:id="@+id/is"
+        android:text="@string/is"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/be"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/small_med"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/big_text" />
+
+    <TextView
+        android:text="@string/christmas"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/neg_small_med"
+        android:fontFamily="cursive"
+        android:layout_above="@id/is"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/big_text" />
+</RelativeLayout>
